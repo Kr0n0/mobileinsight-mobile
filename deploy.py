@@ -8,7 +8,9 @@ It deploys compiling environment and parameters for mobileinsight.
 
 Authors : Zengwen Yuan
           Kainan Wang
-Version : 2.4 -- 2017/10/05 automate password arguments for release version
+Modifications : Carlos Crisostomo
+Version : 2.5 -- 2018/11/06 custom path for own repo
+          2.4 -- 2017/10/05 automate password arguments for release version
           2.3 -- 2017/09/25 remove obselete 'compile-pyo' option
           2.2 -- 2016/05/17 add config commands to copy libs
           2.1 -- 2016/05/16 reformat building commands
@@ -20,7 +22,7 @@ import yaml
 import commands
 import subprocess
 
-LIBS_GIT = 'https://github.com/mobile-insight/mobileinsight-libs.git'
+LIBS_GIT = 'https://github.com/Kr0n0/mobileinsight-libs.git'
 
 def run_config():
     os.system(
